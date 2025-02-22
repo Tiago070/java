@@ -25,8 +25,14 @@ public class Conta {
     /**
      * Acumula no saldo um valor x mais 10%
      * @param valor double - indica o valor a ser depositado
+     * @param porcentagem
      */
-    public void depositar(double valor){
+    /*public void depositar(double valor){
         this.saldo = this.saldo + valor + (valor*0.1);
+    }*/
+    
+    public void depositar2(double valor, double porcentagem){
+        this.saldo = this.saldo + valor + (valor*porcentagem/100);
     }
+   
 }
