@@ -32,7 +32,6 @@ public class UsaConta {
         double porcentagem = scan.nextDouble();
         
         conta1.depositar2(saldo, porcentagem);
-        
         System.out.printf("Saldo: %.2f" ,conta1.getSaldo());
         System.out.println("\nNome: " +conta1.getNome());
         
