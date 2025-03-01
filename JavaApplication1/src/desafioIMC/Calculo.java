@@ -12,6 +12,7 @@ public class Calculo {
         return pessoa1.getPeso() / (pessoa1.getAltura() * pessoa1.getAltura());
         
     }
+    //oi
     
     public String verificar(float imc){
         if ((imc >= 18.50) && (imc <= 24.99)){
