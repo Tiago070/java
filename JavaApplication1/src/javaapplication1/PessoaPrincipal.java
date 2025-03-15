@@ -10,8 +10,19 @@ public class PessoaPrincipal {
         System.out.println("Digite o nome: ");
         oCliente.setNome(scan.next());
         
-        System.out.println("Digite o CPF: ");
-        oCliente.setNome(scan.next());
+        System.out.println("Digite a idade: ");
+        oCliente.setIdade(scan.next());
+        
+        System.out.println("Digite o endereço: ");
+        oCliente.setEndereco(scan.next());
+        
+        System.out.println("Digite o email: ");
+        oCliente.setEmail(scan.next());
+        
+        System.out.println("Digite o telefone: ");
+        oCliente.setTelefone(scan.next());
+        
+        oCliente.calcularSalario();
         
         
         /*Cliente oCliente = new Cliente();

@@ -31,8 +31,9 @@ public class Fornecedor extends Pessoa {
         this.cnpj = cnpj;
     }
     
-    public float calcularProduto(Fornecedor valor, Fornecedor imposto, float valorFinal){
-        return valorFinal = this.valor + this.imposto;
+    public float calcularProduto(Cliente oFornecedor){
+        float valorProduto = valor + imposto;
+        return valorProduto;
     }
     
     public void imprimirFornecedor(){

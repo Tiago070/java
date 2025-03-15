@@ -39,8 +39,9 @@ public class Cliente extends Pessoa {
 
     
     
-    public float calcularSalario(Cliente salario, Cliente IR, float salarioLiquido){
-        return salarioLiquido = this.salario - this.IR;
+    public float calcularSalario(Cliente oCliente){
+        float salarioLiquido = salario - IR;
+        return salarioLiquido;
     }
     
     public void imprimirCliente(){
