@@ -1,5 +1,5 @@
 
-package javaapplication1;
+package execicioHeranca;
 
 public class Fornecedor extends Pessoa {
     

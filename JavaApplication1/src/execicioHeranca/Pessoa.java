@@ -1,5 +1,5 @@
 
-package javaapplication1;
+package execicioHeranca;
 
 public class Pessoa {
     private String nome, idade, endereco, email, telefone;

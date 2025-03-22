@@ -1,6 +1,7 @@
+package execicioHeranca;
+
 
 import java.util.Scanner;
-package javaapplication1;
 
 public class PessoaPrincipal {
     public static void main(String[] args) {
